@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Data(자료구조)"
+title: "Data Structure(자료구조)"
 ---
 
 
@@ -24,19 +24,19 @@ title: "Data(자료구조)"
 3. Pesuedo Code 짜보기
    - 스택이라는 배열을 선언하고 top point를 0으로 지정한다.
    - push & pop
-     - 배열의 method push와 pop과 같은 형식으로 함수를 마련한다.
-     - 데이터가 주어질 때 가장 후반부에 쌓거나 제거하고
-     - top point가 +1 혹은 -1 한다.
+      배열의 method push와 pop과 같은 형식으로 함수를 마련한다.
+      데이터가 주어질 때 가장 후반부에 쌓거나 제거하고
+      top point가 +1 혹은 -1 한다.
    - peek: top point 값을 인덱스로 가진 배열의 요소를 리턴한다.
    - empty
-     - 스택이 비어있는지를 확인하기 위해 스택의 길이를 확인하는 함수를 준비한다.
-     - 함수는 스택 배열의 길이가 0일 때 true, 그렇지 않을 때는 false를 리턴한다.
+      스택이 비어있는지를 확인하기 위해 스택의 길이를 확인하는 함수를 준비한다.
+      함수는 스택 배열의 길이가 0일 때 true, 그렇지 않을 때는 false를 리턴한다.
    - swap
-     - top point의 데이터를 임시로 담을 변수를 선언한다.
-     - top point의 데이터를 임시 변수에 담는다.
-     - top point -1 위치의 데이터를 top point에 할당한다.
-     - top point -1 위치에는 임시 변수의 데이터를 할당한다.
-     - top point와 top point -1 위치의 데이터를 리턴한다.
+      top point의 데이터를 임시로 담을 변수를 선언한다.
+      top point의 데이터를 임시 변수에 담는다.
+      top point -1 위치의 데이터를 top point에 할당한다.
+      top point -1 위치에는 임시 변수의 데이터를 할당한다.
+      top point와 top point -1 위치의 데이터를 리턴한다.
 
 ```
 class Stack {
@@ -104,14 +104,14 @@ class Stack {
 3. Pseudocode 짜보기
    - queue라는 빈 객체를 선언하고 locaCount, head를 0으로 선언.
    - enqueue
-     - 만약 queue가 비어있다면, head를 +1 한다.
-     - queue에 locaCount가 key인 value에 주어진 data를 추가하고, locaCount를 +1 한다.
+      만약 queue가 비어있다면, head를 +1 한다.
+      queue에 locaCount가 key인 value에 주어진 data를 추가하고, locaCount를 +1 한다.
    - dequeue
-     - 만약 head가 0이면 dequeue는 불가능하다.
-     - queue에 값이 1개 이상이면(locaCount가 0보다 크면)
-       1) head 값을 임시로 저장한다.
-       2) queue에서 head -1 값을 key로 하는 값을 delete하고 locaCount를 -1한다.
-       3) 그런 다음 head를 임시로 저장한 이전 head 값 +1로 다시 할당한다.
+      만약 head가 0이면 dequeue는 불가능하다.
+      queue에 값이 1개 이상이면(locaCount가 0보다 크면)
+        head 값을 임시로 저장한다.
+        queue에서 head -1 값을 key로 하는 값을 delete하고 locaCount를 -1한다.
+        그런 다음 head를 임시로 저장한 이전 head 값 +1로 다시 할당한다.
    - peek: queue에서 head -1 값을 key로 하는 값을 리턴한다.
    - isEmpty: locaCount가 0이면 true, 아니면 false를 리턴한다.
 
