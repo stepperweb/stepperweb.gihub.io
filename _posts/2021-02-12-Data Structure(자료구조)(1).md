@@ -1,7 +1,7 @@
-----
+---
 layout: post
 title: "Data(자료구조)"
-----
+---
 
 
 ### **Stack의 구조방식**
