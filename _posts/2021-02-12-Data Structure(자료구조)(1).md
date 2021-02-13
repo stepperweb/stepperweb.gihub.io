@@ -1,3 +1,9 @@
+----
+layout: post
+title: "Data(자료구조)"
+----
+
+
 ### **Stack의 구조방식**
 
 - stack은 Last In First Out(후입선출)의 구조을 가지고 있다.
