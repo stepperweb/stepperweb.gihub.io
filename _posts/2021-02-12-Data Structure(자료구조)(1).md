@@ -23,15 +23,15 @@ title: "Data(자료구조)"
    - swap: 스택 가장 상단의 데이터 2개의 위치를 변경
 3. Pesuedo Code 짜보기
    - 스택이라는 배열을 선언하고 top point를 0으로 지정한다.
-   - push & pop :
+   - push & pop
      - 배열의 method push와 pop과 같은 형식으로 함수를 마련한다.
      - 데이터가 주어질 때 가장 후반부에 쌓거나 제거하고
      - top point가 +1 혹은 -1 한다.
    - peek: top point 값을 인덱스로 가진 배열의 요소를 리턴한다.
-   - empty:
+   - empty
      - 스택이 비어있는지를 확인하기 위해 스택의 길이를 확인하는 함수를 준비한다.
      - 함수는 스택 배열의 길이가 0일 때 true, 그렇지 않을 때는 false를 리턴한다.
-   - swap:
+   - swap
      - top point의 데이터를 임시로 담을 변수를 선언한다.
      - top point의 데이터를 임시 변수에 담는다.
      - top point -1 위치의 데이터를 top point에 할당한다.
@@ -103,10 +103,10 @@ class Stack {
    - isEmpty: queue에 아무 것도 없는 경우 true, 아닌 경우 false를 리턴
 3. Pseudocode 짜보기
    - queue라는 빈 객체를 선언하고 locaCount, head를 0으로 선언.
-   - enqueue:
+   - enqueue
      - 만약 queue가 비어있다면, head를 +1 한다.
      - queue에 locaCount가 key인 value에 주어진 data를 추가하고, locaCount를 +1 한다.
-   - dequeue:
+   - dequeue
      - 만약 head가 0이면 dequeue는 불가능하다.
      - queue에 값이 1개 이상이면(locaCount가 0보다 크면)
        1) head 값을 임시로 저장한다.
