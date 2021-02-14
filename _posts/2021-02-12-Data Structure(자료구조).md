@@ -27,15 +27,15 @@ title: Data structure(자료구조)
     - 데이터가 주어질 때 가장 후반부에 쌓거나 제거하고
     - top point가 +1 혹은 -1 한다.
    - peek: top point 값을 인덱스로 가진 배열의 요소를 리턴한다.
-   - empty:
-    - 스택이 비어있는지를 확인하기 위해 스택의 길이를 확인하는 함수를 준비한다.
-    - 함수는 스택 배열의 길이가 0일 때 true, 그렇지 않을 때는 false를 리턴한다.
-   - swap:
-    - top point의 데이터를 임시로 담을 변수를 선언한다.
-    - top point의 데이터를 임시 변수에 담는다.
-    - top point -1 위치의 데이터를 top point에 할당한다.
-    - top point -1 위치에는 임시 변수의 데이터를 할당한다.
-    - top point와 top point -1 위치의 데이터를 리턴한다.
+    - empty:
+     - 스택이 비어있는지를 확인하기 위해 스택의 길이를 확인하는 함수를 준비한다.
+     - 함수는 스택 배열의 길이가 0일 때 true, 그렇지 않을 때는 false를 리턴한다.
+    - swap:
+     - top point의 데이터를 임시로 담을 변수를 선언한다.
+     - top point의 데이터를 임시 변수에 담는다.
+     - top point -1 위치의 데이터를 top point에 할당한다.
+     - top point -1 위치에는 임시 변수의 데이터를 할당한다.
+     - top point와 top point -1 위치의 데이터를 리턴한다.
 
 ```
 class Stack {
@@ -53,7 +53,7 @@ class Stack {
     //요소를 스택의 최상단에 추가합니다.
     this.storage[this.count] = element;
     this.count++;
-    return element;    
+    return element;
   }
 
   pop() {
@@ -67,10 +67,8 @@ class Stack {
         return;
     }
   }
-};    
+};
 ```
-
- 
 
 ### **Stack의 응용사례**
 
@@ -78,9 +76,7 @@ class Stack {
 
 [makemethink.tistory.com/119](https://makemethink.tistory.com/119)
 
- 
-
-------
+---
 
 ### **Queue의 구조방식**
 
@@ -90,7 +86,7 @@ class Stack {
   프로그래밍 중에서는 '프린터에 인쇄 예정인 문서 올리기'가 있다.
 - queue는 tree 구조 검색 시 넓이우선검색(Breadth First Search: 노드 레벨에서 좌에서 우로 탐색한 후 다음 노드 레벨로 이동하는 방식)에서 사용된다.
 
-### ***\*Queue\**의 property와 method**
+### **\*\*Queue\*\*의 property와 method**
 
 1. Property of Queue
    - locaCount: queue에 쌓인 각각 데이터 개수
@@ -103,14 +99,14 @@ class Stack {
 3. Pseudocode 짜보기
    - queue라는 빈 객체를 선언하고 locaCount, head를 0으로 선언.
    - enqueue:
-    - 만약 queue가 비어있다면, head를 +1 한다.
-    - queue에 locaCount가 key인 value에 주어진 data를 추가하고, locaCount를 +1 한다.
+   - 만약 queue가 비어있다면, head를 +1 한다.
+   - queue에 locaCount가 key인 value에 주어진 data를 추가하고, locaCount를 +1 한다.
    - dequeue:
-    - 만약 head가 0이면 dequeue는 불가능하다.
-    - queue에 값이 1개 이상이면(locaCount가 0보다 크면)
-     1) head 값을 임시로 저장한다.
-     2) queue에서 head -1 값을 key로 하는 값을 delete하고 locaCount를 -1한다.
-     3) 그런 다음 head를 임시로 저장한 이전 head 값 +1로 다시 할당한다.
+   - 만약 head가 0이면 dequeue는 불가능하다.
+   - queue에 값이 1개 이상이면(locaCount가 0보다 크면)
+   1. head 값을 임시로 저장한다.
+   2. queue에서 head -1 값을 key로 하는 값을 delete하고 locaCount를 -1한다.
+   3. 그런 다음 head를 임시로 저장한 이전 head 값 +1로 다시 할당한다.
    - peek: queue에서 head -1 값을 key로 하는 값을 리턴한다.
    - isEmpty: locaCount가 0이면 true, 아니면 false를 리턴한다.
 
