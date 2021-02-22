@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Node JS 모듈 / 동기와 비동기 방식"
+title: "TIL - Node JS 모듈 / 동기와 비동기 방식"
 author: "김재우"
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "JS에서 Object(객체)를 생성하는 여러가지 방법들"
+title: "TIL - JS에서 Object(객체)를 생성하는 여러가지 방법들"
 author: "김재우"
 ---
 

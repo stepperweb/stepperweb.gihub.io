@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "객체지향 프로그래밍 - Object Oriented Programming(OOP)"
+title: "TIL - 객체지향 프로그래밍 - Object Oriented Programming(OOP)"
 author: "김재우"
 ---
 
