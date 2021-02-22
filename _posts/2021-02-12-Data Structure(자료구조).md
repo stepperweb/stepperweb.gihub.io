@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Data structure(자료구조)
+summary: 첫 블로깅자료
+author: 김재우
 ---
 
 ### **Stack의 구조방식**
