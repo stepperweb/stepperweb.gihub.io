@@ -1,3 +1,9 @@
+---
+layout: single
+title: "객체지향 프로그래밍 - Object Oriented Programming(OOP)"
+author: "김재우"
+---
+
 객체 지향프로그래밍이 나오기 이전에는 절차 지향형 프로그래밍이 있었다.
 
  
