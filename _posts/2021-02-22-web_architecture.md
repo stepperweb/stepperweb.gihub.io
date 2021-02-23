@@ -33,7 +33,7 @@ title: "TIL - Basic Web Architecture"
 
 [m.blog.naver.com/PostView.nhn?blogId=pst8627&logNo=221662613847&proxyReferer=https:%2F%2Fwww.google.com%2F](https://m.blog.naver.com/PostView.nhn?blogId=pst8627&logNo=221662613847&proxyReferer=https:%2F%2Fwww.google.com%2F)
 
-
+[ IT관련용어 [ 서버 \] 란 무엇인가?안녕하세요 탄탄이 입니다.오늘은 서버에 대해서 알아보려 합니다.여러분이 생각하는 서버는 무엇인가요?...blog.naver.com](https://m.blog.naver.com/PostView.nhn?blogId=pst8627&logNo=221662613847&proxyReferer=https:%2F%2Fwww.google.com%2F)
 
 ------
 
