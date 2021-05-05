@@ -15,12 +15,12 @@
 minimal_mistakes_skin    : "air" # "default", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-KR"
+locale                   : "ko-KR"
 title                    : "Erick's 개발자의 일기"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Jae Woo Kim"
-description              : "To be the way of Softwere Engineer"
+name                     : "김재우"
+description              : "무엇이든 알고쓰는 개발자가 되자!"
 url                      : "https://stepperweb.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -52,7 +52,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
+search                   : true, # false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "Jae Woo Kim"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I wanna **be** a person who is good at **SW**"
+  bio              : # "I wanna **be** a person who is good at **SW**"
   location         : # "Somewhere"
   email            : "wodnqjel@gmail.com"
   links:
