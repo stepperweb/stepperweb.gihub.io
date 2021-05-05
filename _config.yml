@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name: "김재우(Erick)"
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar: "/assets/images/profile.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "Front-End 개발자" # "I wanna **be** a person who is good at **SW**"
   location: "Korea"
   email:
